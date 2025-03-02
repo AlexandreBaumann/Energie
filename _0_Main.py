@@ -18,5 +18,5 @@ enr_types = ["solar_generation_actual", "wind_onshore_generation_actual", "wind_
 # eva_stats = process_energy_analysis (File1, File2,enr_types)
 # eva_stats.to_csv(File3, index=False)
 simu = process_accumulated_analysis(File3,enr_types)
-
+simu.to_csv(File4, index=False) 
 # plot_energy_data(data)
